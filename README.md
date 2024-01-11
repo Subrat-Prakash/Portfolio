@@ -3,7 +3,7 @@
   <a href="https://subrat-prakash.netlify.app/" target="_blank">Subrat Prakash</a>
 </h2>
 <div align="center">
-  <img alt="Demo" src="./Images/readme.png" />
+  <img alt="Demo" src="./Images/readme-img.png.png" />
 </div>
 
 <br/>
