@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/Subrat.png";
+import myImg from "../../Assets/Subrat1.png";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -8,6 +8,7 @@ import {
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import homeLogo from "../../Assets/home-main.svg";
 
 function Home2() {
   return (
@@ -19,42 +20,54 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
-              <br />
-              <br />I am fluent in classics like
+              Hi, I am
               <i>
-                <b className="purple"> Java, Javascript and C++. </b>
-              </i>
-              <br />
-              <br />
-              My field of Interest's are building new &nbsp;
+                <b className="purple"> Subrat Prakash</b>
+              </i>{" "}
+              a web developer and UI/UX designer with a passion for creating
+              beautiful, functional, and user-centered digital experiences. With{" "}
               <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  Blockchain.
-                </b>
-              </i>
+                <b className="purple"> 2 years of experience </b>
+              </i>{" "}
+              in the field. I am always looking for new and innovative ways to
+              bring my clients visions to life.
+              <br />
+              <br />I believe that design is about more than just making things
+              look pretty – it is about solving problems and creating intuitive,
+              enjoyable experiences for users.
+              <br />
+              <br /> Whether I am working on a website, mobile app, or other
+              digital product, I bring my commitment to design excellence and
+              user-centered thinking to every project I work on. I look forward
+              to the opportunity to bring my skills and passion to your next
+              project.
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
+              "I have a deep passion for programming and problem-solving, with a
+              solid foundation in{" "}
               <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
+                <b className="purple"> Java, Data Structures, and Algorithms</b>
               </i>
-              &nbsp; like
+              . I’m particularly interested in developing innovative web
+              technologies and building scalable products. My expertise lies in
+              working with{" "}
               <i>
-                <b className="purple"> React.js and Next.js</b>
-              </i>
+                <b className="purple"> Node.js </b>
+              </i>{" "}
+              as well as modern{" "}
+              <i>
+                <b className="purple"> JavaScript </b>
+              </i>{" "}
+              libraries and frameworks like{" "}
+              <i>
+                <b className="purple"> React.js and Next.js </b>
+              </i>{" "}
+              to create dynamic and efficient web applications
             </p>
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
+              <img src={homeLogo} className="img-fluid" alt="avatar" />
             </Tilt>
           </Col>
         </Row>

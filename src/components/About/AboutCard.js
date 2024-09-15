@@ -11,7 +11,7 @@ function AboutCard() {
             Hi Everyone, I am <span className="purple">Subrat Prakash </span>
             from <span className="purple"> Bhopal, India.</span>
             <br />
-            I am currently Student.
+            I am Software Developer. I have done my Internship in DIVEGEN TECHNOLOGY  as a Software Developer Intern.
             <br />
             I have completed Bachelor degree in Information Technology at LNCT Bhopal.
             <br />
