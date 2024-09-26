@@ -2,12 +2,14 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import Docapp from "../../Assets/Projects/Docapp.png";
+import Genai from "../../Assets/Projects/Genai.png";
+import Portfolioo from "../../Assets/Projects/Portfolioo.png";
+import FeastKartA from "../../Assets/Projects/FeastKartA.png";
+import FeastKart from "../../Assets/Projects//FeastKart.png";
+import Youtube from "../../Assets/Projects/Youtube.png";
+import nightflex from "../../Assets/Projects/nightflex.png";
+import Bookstore from "../../Assets/Projects/Bookstore.png";
 
 function Projects() {
   return (
@@ -23,68 +25,95 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={FeastKart}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="FeastKart"
+              description="An intuitive food delivery app offering seamless food and restaurant search, cart management, and order tracking. With an integrated payment gateway for secure transactions, users can easily browse and order from their favorite restaurants. Admin features provide efficient restaurant and order management, ensuring a smooth experience for both users and restaurant owners"
+              ghLink="https://github.com/Subrat-Prakash/FeastKart-client"
+              demoLink="https://feastkart.vercel.app/"
             />
           </Col>
-
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={}
               isBlog={false}
-              title="Bits-0f-C0de"
+              title="TechTales"
               description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              ghLink=""
+              demoLink=""
+            />
+          </Col> */}
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Youtube}
+              isBlog={false}
+              title="ViewTube"
+              description="ViewTube is a dynamic YouTube clone featuring a powerful video search and filter system. Users can enjoy video content with integrated comments and live chat, all wrapped in a sleek, user-friendly interface for an enhanced viewing experience"
+              ghLink="https://github.com/Subrat-Prakash/YouTube-clone"
+              demoLink="https://youtube-clone-subrat.vercel.app/"              
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={FeastKartA}
+              isBlog={false}
+              title="FeastKart-Admin"
+              description="The Food Delivery App Admin Panel offers powerful tools for restaurant management, including Profile Management, where admins can create and edit detailed restaurant profiles. The Food Item Management feature allows easy creation, editing, and deletion of food items, with the ability to view all items linked to the restaurant. Additionally, the Order Management feature ensures efficient handling of incoming orders for seamless operation "
+              ghLink="https://github.com/Subrat-Prakash/FeastKart-admin"
+              demoLink="https://feastkart-admin.vercel.app/"       
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Genai}
+              isBlog={false}
+              title="GenAI"
+              description="The GenAI project leverages the Gemini API to deliver AI capabilities similar to GPT. This project allows users to generate high-quality text, create dynamic content, and engage in natural conversations. "
+              ghLink="https://github.com/Subrat-Prakash/Generative-AI"
+              demoLink="https://generative-ai-nine.vercel.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={nightflex}
+              isBlog={false}
+              title="NightFlex"
+              description="Note: Request open this Project using vpn because in this Project i used TMDB API which is banned🚫 in India currently. "
+              ghLink="https://github.com/Subrat-Prakash/netflixGPT"
+              demoLink="https://nightflex.netlify.app/#/"       
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={Bookstore}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="Bookly"
+              description="The Bookstore Application offers a seamless user experience with essential features for book lovers. Users can Browse Books, exploring a diverse selection available in the store, and easily Add to Cart their desired titles for later purchase. When ready, they can proceed to Checkout, where they can review their selected items, log in to their accounts, and place their orders effortlessly. This intuitive design ensures that users can find, select, and purchase their favorite books with minimal hassle."
+              ghLink="https://github.com/Subrat-Prakash/Bookstore-Application"
+              demoLink="https://mybooksreview.000webhostapp.com/" 
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={Portfolioo}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="Portfolio"
+              description=" The portfolio website features a Multi-Page Layout that provides an organized and intuitive navigation experience. Built with Tailwind CSS and custom CSS, it offers a responsive design that looks stunning on all devices, with easy-to-customize colors for a personalized touch. The site is fully responsive, ensuring a seamless user experience, complemented by smooth animations that enhance the overall interface. Utilizing React.js, the website delivers a fluid and engaging experience, making it perfect for showcasing your work and skills"
+              ghLink="https://github.com/Subrat-Prakash/Portfolio"
+              demoLink="https://subrat-prakash.vercel.app/"       
             />
           </Col>
-
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={Docapp}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={emotion}
-              isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="DocApp"
+              description=" he Online Consultation App simplifies healthcare by allowing users to Book Appointments easily and Consult Online. It features detailed Profiles for both patients and doctors, ensuring personalized care and easy access to medical history, making healthcare more accessible and convenient for everyone"
+              ghLink="https://github.com/Subrat-Prakash/DocApp"
+              demoLink="https://docapp-latest.netlify.app"       
             />
           </Col>
         </Row>
