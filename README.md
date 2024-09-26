@@ -1,6 +1,6 @@
 <h2 align="center">
   Portfolio Website<br/>
-  <a href="https://subrat-prakash.netlify.app/" target="_blank">Subrat Prakash</a>
+  <a href="https://subrat-prakash.vercel.app/" target="_blank">Subrat Prakash</a>
 </h2>
 <div align="center">
   <img alt="Demo" src="./Images/readme-img.png" />
@@ -31,7 +31,7 @@ You can fork this repo to modify and make changes of your own. Please give me pr
 
 ## Built With
 
-My personal portfolio <a href="https://subrat-prakash.netlify.app/" target="_blank">Subrat.me</a> which features some of my github projects as well as my resume and technical skills.<br/>
+My personal portfolio <a href="https://subrat-prakash.vercel.app/" target="_blank">Subrat.me</a> which features some of my github projects as well as my resume and technical skills.<br/>
 
 This project was built using these technologies.
 
